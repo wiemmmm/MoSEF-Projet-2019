@@ -16,11 +16,11 @@ Le lien de votre **dépôt Github** ainsi que celui de la **page** associée.
 
 # Déroulement du projet
 
-1. *Forker* ce dépôt dans votre compte Github 
+1. *Forkez* ce dépôt dans votre compte Github 
 
-2. *Cloner* avec la commande `git clone` votre copie en local
+2. *Clonez* avec la commande `git clone` votre copie en local
 
-3. Créer le script `search_fichiers.sh` pour qu'il effectue les actions suivantes :
+3. Créez le script `search_fichiers.sh` pour qu'il effectue les actions suivantes :
 
 - Annonce le moment de son exécution 	
 - Souhaite la bienvenue à l'utilisateur (utiliser une variable d'environnement) qui l'a lancé et lui demande de taper le chemin d'un répertoire 
@@ -31,24 +31,24 @@ Quel répertoire vous intéresse aujourd'hui ?
 
 - Affiche le répertoire fourni
 
-4. *Commiter* le fichier dans votre dépôt local puis pousser les modifications dans le dépôt distant 
+4. *Commitez* le fichier dans votre dépôt local puis pousser les modifications dans le dépôt distant 
 
 5. Sur le dépôt local, créer une nouvelle branche. 
 
-6. Editer le script dans la nouvelle branche pour qu'il affiche tous les fichiers dont le nom respecte un pattern fourni en paramètre (du répertoire saisi par l'utilisateur). 
+6. Editez le script dans la nouvelle branche pour qu'il affiche tous les fichiers dont le nom respecte un pattern fourni en paramètre (du répertoire saisi par l'utilisateur). 
 
 **Exemple :** `./search_fichiers.sh photo_20?.png` doit retourner tous les fichiers comme *photo_20x.png*, *photo_206.png*...
 
-7. Pousser les changements dans votre dépôt distant 
+7. Poussez les changements dans votre dépôt distant 
 
-8. Faire une *pull request* de la nouvelle branche sur master. Fusionner la pull request 
+8. Faire une *pull request* de la nouvelle branche sur master. Fusionnez la pull request 
 
-8. En local, fusionner la nouvelle branche à master. 
+8. En local, fusionnez la nouvelle branche à master. 
 
-9. Editer le script pour qu'il filtre sa sortie pour afficher uniquement les fichiers qui contiennent un deuxième pattern fourni en paramètre (de manière insensible à la casse). 
+9. Editez le script pour qu'il filtre sa sortie pour afficher uniquement les fichiers qui contiennent un deuxième pattern fourni en paramètre (de manière insensible à la casse). 
 
 **Exemple :** `./search_fichiers.sh readm?.md bon?our` doit retourner tous les fichiers dont le nom est sous la forme *readm?.md* et qui contiennent une ligne avec *bonjour*, *bOn5ouR*, *bOnJoUR*...
 
-10. Pousser les changements dans votre dépôt distant 
+10. Poussez les changements dans votre dépôt distant 
 
 11. Vous n'avez plus besoin du fichier Consignes.md, supprimez-le en local et poussez les modifications sur Github.
