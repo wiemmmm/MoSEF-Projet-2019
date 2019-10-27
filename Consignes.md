@@ -8,7 +8,7 @@ Le lien de votre **dépôt Github** ainsi que celui de la **page** associée.
 
 # Consignes générales
 
-- Ajoutez un `readme.md` qui documente votre travail et qui explique comment exécuter le script ainsi que les résultats attendus (vous pouvez ajouter des images illustratives). 
+- Ajoutez un `readme.md` qui documente votre travail c'est-à-dire qui explique comment exécuter le script ainsi que les résultats attendus (vous pouvez ajouter des images illustratives). 
 
 - **Pas d'actions superflues.** Porter une attention particulière à la pertinence de chaque commit ainsi qu'à clarté et à la concision du message associé.
 
