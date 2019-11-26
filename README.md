@@ -1,9 +1,9 @@
 
-#Ce présent travail explique le déroulement d'un projet individuel de LINUX.
+# Ce présent travail explique le déroulement d'un projet individuel de LINUX.
 
-##C'est une mise en place des savoir acquis en cours.
+## C'est une mise en place des savoir acquis en cours.
 
-###Le readme edicte les étapes du projet.
+### Le readme edicte les étapes du projet.
 
 Les tâches consistes dans un premier temps de forker le repository ambalde/MoSEF-Projet-2019, ensuite sur la terminale (localement) taper **git clone https://github.com/wiemmmm/MoSEF-Projet-2019** .
 Dans un second temps, on crée un fichier de type .sh, soit **vim search-fichiers.sh** qui effectue diverses actions comme l'affichage de la date et de l'heure lors de l'exécution du fichier, Affichage d' un message d'acceuil à l'utilisateur et lui propose quel répertoire lui intéresse.
