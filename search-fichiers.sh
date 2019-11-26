@@ -10,4 +10,8 @@ read repository
 
 echo "You have choose as repository" $repository
 read -p "Which pattern your 're looking for? " pattern
-ls $repository/$pattern 
+ls $repository/$pattern
+
+echo " Documents containing a second pattern specified by a parametre"
+grep -il $2repository/$pattern
+
