@@ -18,6 +18,8 @@ Toujours sur le dépôt local, on crée une nouvelle branche soit **git branch p
 On édite le script *search-fichiers.sh* de telle manière qu'il affiche le nom de pattern fourni en paramètre du répertoire saisi par l'utilisateur. Soit **git checkout projbranch** car l'édition est faite sur la nouvelle branche, puis **vim search-fichiers.sh** .
 Par exemple j'ai choisi le répertoire /bin et jai demandé la recherche des fichiers comprennant *dir. Il m'a affiché /bin/dir  /bin/mkdir  /bin/rmdir  /bin/vdir.
 
+Voir les figures ci dessous résumant toutes ces étapes.
+
 ![photo1](https://www.cjoint.com/doc/19_11/IKCloTGXRUn_1.PNG)
 ![photo2](https://www.cjoint.com/doc/19_11/IKClruK1sun_2.PNG)
 ![photo3](https://www.cjoint.com/doc/19_11/IKClsWt1f5n_3.PNG)
@@ -29,7 +31,7 @@ Des modifications de nouveau sur le fichier *search-fichiers.sh* ont été affec
 
 Finalement nous supprimons le fichier *Consignes.md* toujours sur la branche *master* .
 Soit les étapes suivantes:
-**rm Consignes.md**
-**git add .**
-**git commit -m "Suppression du fichier Consignes.md"**
-**git push origin master**
+- **rm Consignes.md**
+- **git add .**
+- **git commit -m "Suppression du fichier Consignes.md"**
+- **git push origin master**
