@@ -20,11 +20,9 @@ Par exemple j'ai choisi le répertoire /bin et jai demandé la recherche des fic
 
 Voir les figures ci dessous résumant toutes ces étapes.
 
-![photo1](https://www.cjoint.com/doc/19_11/IKCloTGXRUn_1.PNG)
-![photo2](https://www.cjoint.com/doc/19_11/IKClruK1sun_2.PNG)
-![photo3](https://www.cjoint.com/doc/19_11/IKClsWt1f5n_3.PNG)
+![photo1](https://www.cjoint.com/doc/19_11/IKCqeotxvhW_1.PNG)
 
-Une fois les modifications effectuées nous tapons **git add** puis **git commit -m "Ajout des modification"** et on le pousse dans le dépôt distant: **git push origin projbranch** .
+Une fois les modifications effectuées nous tapons **git add** puis **git commit -m "Ajout des modifications"** et on le pousse dans le dépôt distant: **git push origin projbranch** .
 
 Un pull request de la nouvelle branche sur master et un fusionnement ont eu lieu dans github. Localement on revient à la branche master et on fusionne la nouvelle branche à la branche par défaut: **git merge projbranch** .
 Des modifications de nouveau sur le fichier *search-fichiers.sh* ont été affectées de façon qu'il affiche uniquement les fichiers contenant un deuxième pattern fourni en paramètre (de manière insensible à la case). De la même manière nous effectuons un **git add** et un **git commit "Third modification"** , puis un push: **git push origin master**.
